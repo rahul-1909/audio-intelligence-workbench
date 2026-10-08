@@ -1,0 +1,26 @@
+# User-provided and derived data
+data/
+Dataset_Final/
+*.wav
+*.mp3
+*.flac
+*.csv
+*.npy
+*.json
+
+# Generated predictions and caches
+audio_features_cache.csv
+transcripts_cache.csv
+submission_*.csv
+run_*_metrics.json
+outputs/
+
+# Python and notebooks
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Model and experiment artifacts
+catboost_info/
+models/
